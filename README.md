@@ -17,6 +17,7 @@ bun dev
 Dependencies:
 npm install framer-motion
 npm install react-animated-numbers
+npm install @heroicons/react
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
