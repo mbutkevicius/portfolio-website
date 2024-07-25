@@ -16,6 +16,7 @@ bun dev
 
 Dependencies:
 npm install framer-motion
+npm install react-animated-numbers
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
