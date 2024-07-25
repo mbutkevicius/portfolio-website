@@ -8,7 +8,7 @@ const projectsData = [
         id: 1,
         title: "React Portfolio Website",
         description: "Personal website to show projects made",
-        image: "/images/About.JPG",
+        image: "/images/projects/portfolio.png",
         tag: ["All", "Web"],
         linkUrl: "/",
         previewUrl: "/"
@@ -18,10 +18,28 @@ const projectsData = [
         title: "Trip's Voyage Gem Rush",
         description: "2D Arcade Platformer",
         image: "/images/projects/trip.png",
-        tag: ["All", "Game"],
+        tag: ["All", "Unity"],
         linkUrl: "https://eupholace.itch.io/trips-voyage-gem-rush",
         previewUrl: "/"
     },
+    {
+      id: 3,
+      title: "BrainWave",
+      description: "Quizlet Clone",
+      image: "/images/projects/BrainWave.png",
+      tag: ["All", "Web"],
+      linkUrl: "https://github.com/Fairie0723/BrainWave",
+      previewUrl: "/"
+  },
+  {
+    id: 4,
+    title: "CEM Heatmap",
+    description: "Heatmap of events for CEM",
+    image: "/images/projects/cem.png",
+    tag: ["All", "Web"],
+    linkUrl: "https://github.com/JulianCayceMTSU/CEMHeatmap",
+    previewUrl: "/"
+},
 ]
 
 const ProjectsSection = () => {
@@ -48,8 +66,13 @@ const ProjectsSection = () => {
         </ProjectTag>
         <ProjectTag
           onClick={handleTagChange}
-          name="Game" 
-          isSelected={tag === "Game"}>
+          name="Unity" 
+          isSelected={tag === "Unity"}>
+        </ProjectTag>
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Web" 
+          isSelected={tag === "Web"}>
         </ProjectTag>
       </div>
       <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
