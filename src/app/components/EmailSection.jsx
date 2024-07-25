@@ -13,10 +13,10 @@ const EmailSection = () => {
         </div>
         <div>
             <h5 className='text-xl font-bold text-white my-2'>
-                Let's Connect
+                Let&apos;s Connect
             </h5>
             <p className='text-[#ADB7BE] mb-4 max-w-md'>
-                I'm looking for an opportunity! 
+                I&apos;m looking for an opportunity! 
             </p>
             <div className='socials flex flex-row gap-5'>
                 <Link 
