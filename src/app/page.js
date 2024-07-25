@@ -12,13 +12,24 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Michael Butkevicius&apos; Portfolio</title>
-        <meta name="description" content="A portfolio made in React to showcase projects I have worked on." />
-        <meta property="og:title" content="Michael Butkevicius&apos; Portfolio" />
-        <meta property="og:description" content="A portfolio made in React to showcase projects I have worked on." />
-        <meta property="og:url" content="https://portfolio-website-zeta-bice.vercel.app/" />
-      </Head>
+      <title>Michael Butkevicus Portfolio</title>
+      <meta name="description" content="A portfolio made in React to showcase projects I have worked on"/>
+
+      <meta property="og:url" content="https://portfolio-website-zeta-bice.vercel.app/"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="Michael Butkevicus Portfolio"/>
+      <meta property="og:description" content="A portfolio made in React to showcase projects I have worked on"/>
+
+      <meta property="og:image" content="../images/Logo.png"/>
+
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta property="twitter:domain" content="portfolio-website-zeta-bice.vercel.app"/>
+      <meta property="twitter:url" content="https://portfolio-website-zeta-bice.vercel.app/"/>
+      <meta name="twitter:title" content="Michael Butkevicus Portfolio"/>
+      <meta name="twitter:description" content="A portfolio made in React to showcase projects I have worked on"/>
+
+      <meta name="twitter:image" content="../images/Logo.png"/>
+
       <main className="flex min-h-screen flex-col bg-[#121212]">
         <Navbar />
         <div className="container mt-28 mx-auto px-12 py-4">
