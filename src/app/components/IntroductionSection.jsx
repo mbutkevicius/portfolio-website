@@ -2,12 +2,18 @@
 import Image from 'next/image'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'framer-motion'
 
 const IntroductionSection = () => {
   return (
     <section className='lg:py-16'>
         <div className='grid grid-cols-1 sm:grid-cols-12'>
-            <div className='col-span-8 place-self-center sm:text-left justify-self-start'>
+            <motion.div
+                initial={{opacity: 0, scale: 0.5}} 
+                animate={{opacity: 1, scale: 1}}
+                transition={{duration: 1}}
+                className='col-span-8 place-self-center sm:text-left justify-self-start'
+            >
                 <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold'>
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-700'>
                     Hello I'm,{" "}
@@ -54,8 +60,13 @@ const IntroductionSection = () => {
                         </span>
                     </a>
                 </div>
-            </div>
-            <div className='col-span-4 place-self-center mt-4 lg:mt-0'>
+            </motion.div>
+            <motion.div
+                initial={{opacity: 0, scale: 0.5}} 
+                animate={{opacity: 1, scale: 1}}
+                transition={{duration: 1}} 
+                className='col-span-4 place-self-center mt-4 lg:mt-0'
+            >
                 <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
                     <Image
                         src="/images/cover.png"
@@ -65,7 +76,7 @@ const IntroductionSection = () => {
                         height={300}
                     />
                 </div>
-            </div>
+            </motion.div>
         </div>
     </section>
   )
