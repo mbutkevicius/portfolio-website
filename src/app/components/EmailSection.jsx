@@ -30,7 +30,7 @@ const EmailSection = () => {
 
                 </Link>
                 <Link 
-                    href="www.linkedin.com/in/michael-butkevicius-9103ba1b3"
+                    href="https://linkedin.com/in/michael-butkevicius-9103ba1b3"
                 >
                     <div className='w-13 h-13'>
                         <Image src={LinkedInLogo} alt='LinkedIn Icon'>

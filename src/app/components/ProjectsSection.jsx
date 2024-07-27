@@ -40,7 +40,16 @@ const projectsData = [
     tag: ["All", "Web"],
     linkUrl: "https://github.com/JulianCayceMTSU/CEMHeatmap",
     previewUrl: "/"
-},
+  },
+  {
+    id: 5,
+    title: "DataDoctors",
+    description: "Hospital Checkin Website",
+    image: "/images/projects/DataDoctors.png",
+    tag: ["All", "Web"],
+    linkUrl: "https://github.com/elijahxz/DataDoctors",
+    previewUrl: "/"
+  },
 ]
 
 const ProjectsSection = () => {
@@ -93,7 +102,7 @@ const ProjectsSection = () => {
               variants={cardVariants}
               initial='initial'
               animate={ isInView ? 'animate' : 'initial' }
-              transition={{ duration: 0.3, delay: index * 0.4 }}
+              transition={{ duration: 0.3, delay: index * 0.2 }}
             >
               <ProjectCard
                   key={project.id}

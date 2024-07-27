@@ -1,4 +1,5 @@
 "use client";
+import { motion } from 'framer-motion'
 import React from 'react'
 import dynamic from 'next/dynamic'
 
@@ -24,13 +25,14 @@ const achievementsList = [
 
 const AchievementsSection = () => {
   return (
-    <div className='py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+    <div
+    className='py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <div className='border-[#33353F] border rounded-md py-8 px-17 flex flex-row items-center justify-between'>
             {achievementsList.map((achievement, index) => {
                 return (
                     <div
                         key={index}
-                        className='flex flex-col items-center justify-center mx-4'
+                        className='flex flex-col items-center justify-center mx-4 lg:px-16'
                     >
                         <h2 className='text-white text-4xl font-bold flex flex-row'>
                             {achievement.prefix}

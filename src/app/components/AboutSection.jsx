@@ -9,11 +9,13 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Node.js</li>
-                <li>Unity</li>
                 <li>C#</li>
                 <li>Python</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Unity</li>
                 <li>SQL</li>
+                <li>Git</li>
             </ul>
         ),
     },
@@ -23,6 +25,9 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Middle Tennessee State University</li>
+                <li>Graduated Magna Cum Laude</li>
+                <li>GPA: 3.89</li>
+                <li>ACM Club Member</li>
             </ul>
         ),
     },
@@ -51,7 +56,7 @@ const AboutSection = () => {
     <section className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py:16 xl:px-16'>
             <Image 
-                src="/images/cover.png"
+                src="/images/test.JPG"
                 alt='test' 
                 width={500} 
                 height={500} 
@@ -59,9 +64,14 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4 mt-2'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    This is my about me section please read more
+                    I&apos;m a computer science student interested in web and game development.
+                    Recently, I finished a gaming project titled Trip's voyage.
+                    I&apos;ve always had a passion for games ever since I was little and
+                    want to be able to spread the happiness felt when being immersed in
+                    a new game.
+                    Outside of programming, I love exercising, music and art.  
                 </p>
-                <div className='flex flex-row mt-8'>
+                <div className='flex flex-row mt-8 text-lg'>
                     <TabButton 
                         selectTab={() => handleTabChange("skills")}
                         active={tab === "skills"}>
