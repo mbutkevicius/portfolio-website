@@ -11,7 +11,7 @@ const projectsData = [
         description: "Personal website to show projects made",
         image: "/images/projects/portfolio.png",
         tag: ["All", "Web"],
-        linkUrl: "/",
+        linkUrl: "https://portfolio-website-zeta-bice.vercel.app",
         previewUrl: "/"
     },
     {
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "DataDoctors",
-    description: "Hospital Checkin Website",
+    description: "Hospital Check-In Website",
     image: "/images/projects/DataDoctors.png",
     tag: ["All", "Web"],
     linkUrl: "https://github.com/elijahxz/DataDoctors",

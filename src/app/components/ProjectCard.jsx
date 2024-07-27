@@ -5,7 +5,7 @@ import Link from 'next/link'
 const ProjectCard = ( {imgUrl, title, description, linkUrl, previewUrl} ) => {
   return (
     <div>
-      <Link href={linkUrl} title={linkUrl}>
+      <Link href={linkUrl} title={linkUrl} target='_blank'>
         <div 
           className='h-52 md:h-72 rounded-t-xl relative group'
           style={{background: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "center center",}}> 

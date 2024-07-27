@@ -24,7 +24,8 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Middle Tennessee State University</li>
+                <li className='font-bold'>Middle Tennessee State University</li>
+                <li>B.S. Professional Computer Science</li>
                 <li>Graduated Magna Cum Laude</li>
                 <li>GPA: 3.89</li>
                 <li>ACM Club Member</li>
@@ -67,7 +68,7 @@ const AboutSection = () => {
                     I&apos;m a computer science student interested in web and game development.
                     Recently, I finished a gaming project titled Trip&apos;s voyage.
                     I&apos;ve always had a passion for games ever since I was little and
-                    want to be able to spread the happiness felt when being immersed in
+                    want to spread the happiness felt when being immersed in
                     a new game.
                     Outside of programming, I love exercising, music and art.  
                 </p>
