@@ -37,7 +37,7 @@ const IntroductionSection = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                    I&apos;m a computer science student looking for a developer role!
+                    I&apos;m a recent computer science graduate looking for a developer role!
                 </p>
                 <div className='sm:mb-5 pb-6'>
                     <a 

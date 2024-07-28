@@ -8,14 +8,20 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className='list-disc pl-2'>
+            
+            // <ul className='list-disc pl-2 grid grid-cols-2 p-4'>
+                <ul class="grid grid-cols-2 mt-8 list-disc pl-4">
                 <li>C#</li>
-                <li>Python</li>
                 <li>React</li>
+                <li>Python</li>
                 <li>Node.js</li>
+                <li>Javascript</li>
                 <li>Unity</li>
-                <li>SQL</li>
+                <li>MySQL</li>
+                <li>Tailwind CSS</li>
                 <li>Git</li>
+                <li>Visual Studio</li>
+                <li>Jira</li>
             </ul>
         ),
     },
@@ -24,7 +30,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li className='font-bold'>Middle Tennessee State University</li>
+                <li className='font-semibold'>Middle Tennessee State University</li>
                 <li>B.S. Professional Computer Science</li>
                 <li>Graduated Magna Cum Laude</li>
                 <li>GPA: 3.89</li>
@@ -33,11 +39,16 @@ const TAB_DATA = [
         ),
     },
     {
-        title: "Certifications",
-        id: "certifications",
+        title: "Soft Skills",
+        id: "softskills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>None</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Work Ethic</li>
+                <li>Leadership</li>
+                <li>Time Management</li>
             </ul>
         ),
     },
@@ -65,12 +76,13 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4 mt-2'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    I&apos;m a computer science graduate interested in web and game development.
-                    Recently, I finished a gaming project titled Trip&apos;s voyage.
+                    Hi! I&apos;m a computer science graduate with a strong interest in web and game development.
+                    I&apos;m always looking to learn and improve my skills. Recently, I finished a gaming project titled
+                    Trip&apos;s voyage, which you can find on itch.io.
                     I&apos;ve always had a passion for games ever since I was little and
                     want to spread the happiness felt when being immersed in
                     a new game.
-                    Outside of programming, I love exercising, music and art.  
+                    Outside of programming, I love exercising, music and art.
                 </p>
                 <div className='flex flex-row mt-8 text-lg'>
                     <TabButton 
@@ -86,10 +98,10 @@ const AboutSection = () => {
                         Education{" "}
                     </TabButton>
                     <TabButton 
-                        selectTab={() => handleTabChange("certifications")}
-                        active={tab === "certifications"}>
+                        selectTab={() => handleTabChange("softskills")}
+                        active={tab === "softskills"}>
                         {" "}
-                        Certifications{" "}
+                        Soft Skills{" "}
                     </TabButton>
                 </div>
                 <div className='mt-8'>
