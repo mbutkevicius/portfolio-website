@@ -65,7 +65,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4 mt-2'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    I&apos;m a computer science student interested in web and game development.
+                    I&apos;m a computer science graduate interested in web and game development.
                     Recently, I finished a gaming project titled Trip&apos;s voyage.
                     I&apos;ve always had a passion for games ever since I was little and
                     want to spread the happiness felt when being immersed in

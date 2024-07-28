@@ -3,7 +3,7 @@ import IntroductionSection from "./components/IntroductionSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
-import EmailSection from './components/EmailSection'
+import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import AchievmentsSection from './components/AchievementsSection'
 import Head from 'next/head'
@@ -42,7 +42,7 @@ export default function Home() {
             <ProjectsSection />
           </section>
           <section id="socials">
-            <EmailSection />
+            <ContactSection />
           </section>
         </div>
         <Footer />

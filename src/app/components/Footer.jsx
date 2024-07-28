@@ -5,7 +5,13 @@ const Footer = () => {
     <footer className='footer z-10 border border-t-[#33353F] border-l-transparent border-r-transparent text-white'>
       <div className='container p-12 flex justify-between'>
         <span>
-            LOGO
+        <div                        
+          className='px-6 py-3 w-fit rounded-full w-22 h-22 mr-4 bg-gradient-to-br from-green-300 via-green-500 to-green-900 hover:from-green-400 hover:via-green-700 hover:to-green-800 text-slate-200'
+        >
+          <p className='text-2xl md:text-3xl font-bold'>
+              MB
+          </p>
+          </div>
         </span>
         <p className='text-slate-600'>
             All rights reserved

@@ -28,14 +28,14 @@ const Navbar = () => {
   return (
     <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-1000'>
         <div className='flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-3'>
-            <Link href="#top" className='text-4xl md:text-5xl text-white front-semibold'>
-                    <Image                        
-                        src="/images/logo5.png"
-                        alt="logo"
-                        className='rounded-lg'
-                        width={75}
-                        height={75}>
-                    </Image>
+            <Link href="#top" className='text-4xl md:text-5xl'>
+                    <div                        
+                        className='px-6 py-3 w-fit rounded-full font-bold mr-4 bg-gradient-to-br from-green-300 via-green-500 to-green-900 hover:from-green-400 hover:via-green-700 hover:to-green-800 text-slate-200'
+                    >
+                    <p>
+                        MB
+                    </p>
+                    </div>
             </Link>
             <div className='mobile-menu block md:hidden'>
                 {!navbarOpen ? (

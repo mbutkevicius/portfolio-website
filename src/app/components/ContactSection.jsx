@@ -7,7 +7,7 @@ import LinkedInLogo from '../../../public/images/LinkedIn-white-logo.png'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const EmailSection = () => {
+const ContactSection = () => {
     const form = useRef();
     const[emailSubmitted, setEmailSubmitted] = useState(false);
 
@@ -33,32 +33,6 @@ const EmailSection = () => {
           },
         );
     };
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-    //     const data = {
-    //         email: e.target.email.value,
-    //         subject: e.target.subject.value,
-    //         message: e.target.message.value,
-    //     }
-    //     const JSONdata = JSON.stringify(data);
-    //     const endpoint = '/api/send';
-
-    //     const options = {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json', 
-    //         },
-    //         body: JSONdata,
-    //     };
-
-    //     const response = await fetch(endpoint, options);
-    //     const resData = await response.json();
-    //     console.log("Message Sent!");
-
-    //     if (response.status === 200) {
-    //         console.log("Message sent");
-    //     }
-    // }
 
   return (
     <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
@@ -169,4 +143,4 @@ const EmailSection = () => {
   )
 }
 
-export default EmailSection
+export default ContactSection
