@@ -28,7 +28,7 @@ export default function Home() {
       <meta name="twitter:title" content="Michael Butkevicus Portfolio"/>
       <meta name="twitter:description" content="A portfolio made in React to showcase projects I have worked on"/>
 
-      <meta name="twitter:image" content="https://portfolio-website-zeta-bice.vercel.app/images/Logo.png"/>
+      <meta name="twitter:image" content="https://portfolio-website-zeta-bice.vercel.app/images/favicon.png"/>
 
       <main className="flex min-h-screen flex-col bg-[#121212]">
         <Navbar />
