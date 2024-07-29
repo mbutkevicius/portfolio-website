@@ -8,7 +8,12 @@ const ProjectCard = ( {imgUrl, title, description, linkUrl, previewUrl, children
 
   useEffect(() => {
       VanillaTilt.init(tiltRef.current, options);
-      return () => tiltRef.current.vanillaTilt.destroy();
+
+      return () => {
+        if (tiltRef.current && tiltRef.current.vanillaTilt) {
+          tiltRef.current.vanillaTilt.destroy();
+        }
+      };
   }, [options]);
 
   return (
