@@ -8,7 +8,7 @@ const projectsData = [
     {
         id: 1,
         title: "React Portfolio Website",
-        description: "Personal website to show projects made",
+        description: "Personal Portfolio Made with React",
         image: "/images/projects/portfolio.png",
         tag: ["All", "Web"],
         linkUrl: "https://portfolio-website-zeta-bice.vercel.app",
@@ -26,7 +26,7 @@ const projectsData = [
     {
       id: 3,
       title: "BrainWave",
-      description: "Quizlet Clone",
+      description: "Quizlet Replica",
       image: "/images/projects/BrainWave.png",
       tag: ["All", "Web"],
       linkUrl: "https://github.com/Fairie0723/BrainWave",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "CEM Heatmap",
-    description: "Heatmap of events for CEM",
+    description: "Heatmap Displaying Events for MTSU's CEM Page",
     image: "/images/projects/cem.png",
     tag: ["All", "Web"],
     linkUrl: "https://github.com/JulianCayceMTSU/CEMHeatmap",
@@ -121,7 +121,6 @@ const ProjectsSection = () => {
                   linkUrl={project.linkUrl}
                   previewUrl={project.previewUrl}
                   options={tiltOptions}
-
               />
             </motion.li>
         ))}
