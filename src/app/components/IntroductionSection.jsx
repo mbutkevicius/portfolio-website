@@ -43,7 +43,7 @@ const IntroductionSection = () => {
                     <a 
                         href='/resume/ButkeviciusResume.pdf'
                         download='ButkeviciusResume.pdf'
-                        className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-200 via-green-500 to-green-800 hover:from-green-400 hover:via-green-700 hover:to-green-800 hover:bg-red-500 text-black'
+                        className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-200 via-green-500 to-green-800 hover:from-green-400 hover:via-green-700 hover:to-green-800 hover:bg-red-500 text-white'
                     >
                     Download CV
                     </a>
