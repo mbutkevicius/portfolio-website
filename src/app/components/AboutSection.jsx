@@ -2,6 +2,8 @@
 import React, { useTransition, useState} from 'react'
 import Image from 'next/image';
 import TabButton from './TabButton';
+import { motion } from 'framer-motion'
+
 
 const TAB_DATA = [
     {
@@ -67,12 +69,18 @@ const AboutSection = () => {
   return (
     <section className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py:16 xl:px-16'>
-            <Image 
-                src="/images/test.JPG"
-                alt='test' 
-                width={500} 
-                height={500} 
-            />
+            <motion.div
+                initial={{opacity: 0, scale: 0.5}} 
+                animate={{opacity: 1, scale: 1}}
+                transition={{duration: 0.5, delay: 0.12}}
+            >            
+                <Image 
+                    src="/images/website-pic.JPG"
+                    alt='test' 
+                    width={500} 
+                    height={500} 
+                />
+            </motion.div>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4 mt-2'>About Me</h2>
                 <p className='text-base lg:text-lg'>
