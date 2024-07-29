@@ -20,7 +20,7 @@ export default function Home() {
       <meta property="og:title" content="Michael Butkevicus Portfolio"/>
       <meta property="og:description" content="A portfolio made in React to showcase projects I have worked on"/>
 
-      <meta property="og:image" content="https://portfolio-website-zeta-bice.vercel.app/images/favicon.png"/>
+      <meta property="og:image" content="https://portfolio-website-zeta-bice.vercel.app/images/preview-metadata.png"/>
 
       <meta name="twitter:card" content="summary_large_image"/>
       <meta property="twitter:domain" content="portfolio-website-zeta-bice.vercel.app"/>
@@ -28,7 +28,7 @@ export default function Home() {
       <meta name="twitter:title" content="Michael Butkevicus Portfolio"/>
       <meta name="twitter:description" content="A portfolio made in React to showcase projects I have worked on"/>
 
-      <meta name="twitter:image" content="https://portfolio-website-zeta-bice.vercel.app/images/favicon.png"/>
+      <meta name="twitter:image" content="https://portfolio-website-zeta-bice.vercel.app/images/preview-metadata.png"/>
 
       <main className="flex min-h-screen flex-col bg-[#121212]">
         <Navbar />
