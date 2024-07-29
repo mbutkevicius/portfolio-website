@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className='flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-3'>
             <Link href="#top" className='text-4xl md:text-5xl'>
                     <div                        
-                        className='px-80 py-20 w-fit rounded-full font-bold mr-4 bg-gradient-to-br from-green-300 via-green-500 to-green-900 hover:from-green-400 hover:via-green-700 hover:to-green-800 text-slate-200'
+                        className='px-6 py-3 w-fit rounded-full font-bold mr-4 bg-gradient-to-br from-green-300 via-green-500 to-green-900 hover:from-green-400 hover:via-green-700 hover:to-green-800 text-slate-200'
                     >
                     <p>
                         MB
