@@ -69,6 +69,14 @@ const ProjectsSection = () => {
     initial: { y: 50, opacity: 0},
     animate: { y: 0 , opacity: 1},
   };
+  
+  const tiltOptions = {
+    scale: 1.05,
+    speed: 200,
+    max: 15,
+    glare: true,
+    'max-glare': 0.2,
+  };
 
   return (
     <section>
@@ -112,6 +120,7 @@ const ProjectsSection = () => {
                   tags={project}
                   linkUrl={project.linkUrl}
                   previewUrl={project.previewUrl}
+                  options={tiltOptions}
 
               />
             </motion.li>
