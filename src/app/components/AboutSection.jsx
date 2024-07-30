@@ -3,6 +3,7 @@ import React, { useTransition, useState} from 'react'
 import Image from 'next/image';
 import TabButton from './TabButton';
 import { motion } from 'framer-motion'
+import '../../../styles.css'
 
 
 const TAB_DATA = [
@@ -12,7 +13,8 @@ const TAB_DATA = [
         content: (
             
             // <ul className='list-disc pl-2 grid grid-cols-2 p-4'>
-                <ul class="grid grid-cols-2 mt-8 list-disc pl-4">
+                // made custom list-disc-color in styles.css
+                <ul class="grid grid-cols-2 list-disc list-disc-color pl-2">
                 <li>C#</li>
                 <li>React</li>
                 <li>Python</li>
@@ -31,7 +33,7 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul className='list-disc pl-2'>
+            <ul className='list-disc list-disc-color pl-2'>
                 <li className='font-semibold'>Middle Tennessee State University</li>
                 <li>B.S. Professional Computer Science</li>
                 <li>Graduated Magna Cum Laude</li>
@@ -44,7 +46,7 @@ const TAB_DATA = [
         title: "Soft Skills",
         id: "softskills",
         content: (
-            <ul className='list-disc pl-2'>
+            <ul className='list-disc list-disc-color pl-2'>
                 <li>Communication</li>
                 <li>Teamwork</li>
                 <li>Problem Solving</li>
@@ -75,7 +77,7 @@ const AboutSection = () => {
                 transition={{duration: 0.5, delay: 0.12}}
             >            
                 <Image 
-                    src="/images/website-pic.JPG"
+                    src="/images/test.JPG"
                     alt='test' 
                     width={500} 
                     height={500} 
@@ -86,7 +88,7 @@ const AboutSection = () => {
                 <p className='text-base lg:text-lg'>
                     Hi! I&apos;m a computer science graduate with a strong interest in web and game development.
                     I&apos;m always looking to learn and improve my skills. Recently, I finished a gaming project titled
-                    Trip&apos;s voyage, which you can find on itch.io.
+                    Trip&apos;s Voyage, which you can find on itch.io.
                     I&apos;ve always had a passion for games ever since I was little and
                     want to spread the happiness felt when being immersed in
                     a new game.

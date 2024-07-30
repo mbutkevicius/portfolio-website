@@ -34,10 +34,10 @@ export default function Home() {
         <Navbar />
         <div className="container mt-28 mx-auto px-12 py-4">
           <IntroductionSection />
-          <AchievmentsSection />
           <section id="about">
             <AboutSection />
           </section>
+          <AchievmentsSection />
           <section id="projects">
             <ProjectsSection />
           </section>

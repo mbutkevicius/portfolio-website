@@ -12,9 +12,10 @@ const achievementsList = [
         postfix: ""
     },
     {
-        prefix: "~",
-        metric: "Users",
-        value: "100"
+        prefix: "",
+        metric: "Engagements",
+        value: "100",
+        postfix: "+"
     },
     {
         metric: "Years",
