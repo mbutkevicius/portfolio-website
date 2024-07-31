@@ -88,7 +88,7 @@ const AboutSection = () => {
                 <p className='text-base lg:text-lg'>
                     Hi! I&apos;m a computer science graduate with a strong interest in web and game development.
                     I&apos;m always looking to learn and improve my skills. Recently, I finished a gaming project titled
-                    Trip&apos;s Voyage, which you can find on itch.io.
+                    Trip&apos;s Voyage Gem Rush, which you can find on itch.io.
                     I&apos;ve always had a passion for games ever since I was little and
                     want to spread the happiness felt when being immersed in
                     a new game.
