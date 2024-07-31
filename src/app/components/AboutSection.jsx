@@ -14,7 +14,7 @@ const TAB_DATA = [
             
             // <ul className='list-disc pl-2 grid grid-cols-2 p-4'>
                 // made custom list-disc-color in styles.css
-                <ul class="grid grid-cols-2 list-disc list-disc-color pl-2">
+            <ul className="grid grid-cols-2 list-disc list-disc-color md:list-inside pl-2 md:w-96">
                 <li>C#</li>
                 <li>React</li>
                 <li>Python</li>
