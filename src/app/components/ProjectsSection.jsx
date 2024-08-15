@@ -50,6 +50,15 @@ const projectsData = [
     linkUrl: "https://github.com/elijahxz/DataDoctors",
     previewUrl: "/"
   },
+  {
+    id: 6,
+    title: "FileMover",
+    description: "Windows File Management System",
+    image: "/images/projects/FileMover.png",
+    tag: ["All", "Other"],
+    linkUrl: "https://github.com/mbutkevicius/FileMover",
+    previewUrl: "/"
+  },
 ]
 
 const ProjectsSection = () => {
@@ -98,6 +107,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web" 
           isSelected={tag === "Web"}>
+        </ProjectTag>
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Other" 
+          isSelected={tag === "Other"}>
         </ProjectTag>
       </div>
       <ul
